@@ -1,0 +1,11 @@
+
+
+//const myArray: number[] = [1,2,3,4,5,6] ;
+
+const myArray: number[] = [1,2,3,4,5,6] ;
+
+const myArray2 = [...myArray] ; // ... operador spread esparce los valores que tenemos 
+
+myArray2.push(7);
+
+console.log(myArray, myArray2);
